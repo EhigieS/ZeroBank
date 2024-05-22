@@ -25,8 +25,8 @@ SECRET_KEY = 'po0172$69b@78ps4v^uhfxu6q--8ko7kpp7rbz420s_3w#sir%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['1f7e-2a00-23c6-4c0c-4001-f0c9-1880-f6df-7972.ngrok-free.app', '127.0.0.1', 'localhost']
+                
 
 # Application definition
 
@@ -140,3 +140,7 @@ CELERY_ACCEPT_CONTENT = ['application/json']
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
 CELERY_TIMEZONE = TIME_ZONE
+
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
