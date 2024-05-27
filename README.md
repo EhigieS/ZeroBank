@@ -64,7 +64,7 @@ Clone GitHub Project,
 ```bash
 git@github.com:EhigieS/ZeroBank.git
 
-cd banking-system
+cd ZeroBank
 ```
 
 Install development dependencies,
